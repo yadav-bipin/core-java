@@ -17,6 +17,15 @@ class WithDraw{
 	 int amt_withdraw = 5000;
 }
 
+
+/*
+  Atm class is Base class or Child Class
+  WithDraw is parent class
+  Inhertitance type -> IS - A relationship 
+  
+  
+ */ 
+
 class Atm extends WithDraw {
 	
 	int amt_left = 10000;
